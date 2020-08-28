@@ -1,0 +1,167 @@
+*{
+    padding:0;
+    margin:0;
+}
+.center{
+    margin:auto;
+    width:1100px;
+}
+.clearfix{
+    clear:both;
+}
+ul{
+    list-style-type: none;
+}
+.greyHead{
+background-color: rgb(221, 221, 221);
+height: 20px;
+}
+.head1{
+color:rgb(198,3,4);
+background-color: rgb(238,238,238);
+}  
+.leftText{
+    float: left;
+    font-size: 33px;
+    line-height: 50px;
+    }
+.rightText{
+    float: right;
+    font-size: 16px;
+    line-height: 50px;
+}
+.head2{
+    background-color:rgb(198,3,4);
+     
+}
+li:not(.foot), ul.foot{
+    float:left;
+}
+.headMenu1 a{
+    text-decoration: none;
+    color:white;
+    font-size: 19px;
+    padding:14px 20px 15px 20px;
+    line-height: 50px;
+}
+.headMenu1 a:hover, .active a {
+    background-color:rgb(125,2,2);
+}
+li.right{
+    float:right;
+} 
+.head3{
+    background-color: rgb(230,230,230);
+    color:rgb(102,102,102);
+    height:35px;
+}
+a.first{
+    margin-left:30px;
+}
+a.headMenu2 {
+    color:rgb(102,102,102);
+}
+a.headMenu2{
+    line-height: 30px;
+}
+a.headMenu2:not(.right){
+    padding:8px 20px;
+    
+}
+li.headMenu2.right{
+    padding-right: 5px;
+    border-right:1px solid rgb(143,145,189);
+    margin-top:7px;
+    margin-right:5px;
+    line-height:15px;
+    /* background-color: rgb(143,145,189); */
+}
+.main{
+    margin-top:20px;
+}
+.mainContent,.middleContent, .rightContent{
+    float:left;
+    text-align: justify;
+}
+.mainContent{
+   width:560px;
+}
+.middleContent, .rightContent{
+width:250px;
+}
+.middleContent{
+    margin:0 20px;
+}
+h2, h3, h4{
+    margin:10px 0;
+}
+h2{
+
+}
+h3{
+    margin-top:20px;
+    font-size: 19px;
+}
+h4{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+p{
+    margin:10px 0;
+}
+p.last{
+    margin-bottom:30px;
+}
+.middleContent p,.rightContent p{
+    font-size: 13px;
+}
+.rightContent img{
+    margin:10px 0;
+} 
+.footer{
+    height:219px;
+    background-color: rgb(238,238,238);
+}
+
+ul.foot a{
+    text-decoration: none;
+    font-size:15px;
+}
+ul.foot{
+    width:200px;
+    margin-top:29px;
+    /* background-color: brown; */
+}
+li.foot{
+    margin-bottom:9px;
+
+}
+.footContent{
+    margin-top:9px;
+    text-align: center;
+    font-size:13px;
+    float:right;
+    /* background-color: black; */
+    width:870px;
+    
+}
+.up{
+    line-height: 19px;
+    border-bottom: 1px solid rgb(102,102,102);
+    padding-bottom:9px;
+}
+.down{
+    margin-top:11px;
+}
+.footer, footer a{
+    color:rgb(102,102,102);
+}
+
+h3.foot{
+    font-size:20px;
+    letter-spacing:-0.245px;
+    margin-bottom:-2px;
+}
+/* ul.foot, .footContent{
+    margin-top:30px;
+} */
